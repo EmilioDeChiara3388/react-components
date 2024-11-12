@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 12 * 4);
+    justify-content: center;
+    gap: 1rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.postPic {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.details {
+    margin-left: 1rem;
+}

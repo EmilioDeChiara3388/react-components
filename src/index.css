@@ -4,11 +4,26 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+}
+
 header,
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1.5rem;
     background-color: lightgreen;
+    padding: 1rem;
+}
+
+main {
+    height: calc(100vh - 85.6px);
+    background-color: lightgray;
+}
+
+.mainCards {
+    display: flex;
+    margin: auto;
+    justify-content: center;
 }
