@@ -19,9 +19,6 @@ export default function BlogCard() {
             <div className={style.details}>
                 <Button />
             </div>
-
-
-
         </div>
     )
 }

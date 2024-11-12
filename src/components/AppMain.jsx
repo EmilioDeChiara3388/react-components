@@ -5,8 +5,6 @@ export default function AppMain() {
             <section className="mainCards">
                 <BlogCard />
             </section>
-
         </main>
-
     )
 }
